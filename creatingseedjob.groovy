@@ -10,7 +10,7 @@ folder('JobDSLs') {
         }
         steps {
             dsl {
-                external('JobDSL/*/folders.jenkins')
+                external('JobDSL/*/folder.jenkins')
                 external('JobDSL/**/*_job.jenkins')
             }
         }
